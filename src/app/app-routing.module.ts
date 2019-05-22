@@ -1,11 +1,9 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { SpotifyCallbackComponent } from './spotify-login/spotify-callback.component';
-import { SpotifyLoginComponent } from './spotify-login/spotify-login.component';
+import { HomeComponent } from './home/home.component';
 
 const routes: Routes = [
-  {path: 'callback', component: SpotifyCallbackComponent},
-  {path: 'login', component: SpotifyLoginComponent}
+  {path: '**', component: HomeComponent},
 ];
 
 @NgModule({
