@@ -1,0 +1,39 @@
+.spotify-panel {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+}
+
+.spotify-panel__header {
+    font-size: 1em;
+    padding-bottom: 10px;
+}
+
+.spotify-panel__track-container {
+    display: flex;
+    align-items: center;
+}
+
+.spotify-panel__image {
+    height: 80px;
+    width: auto;
+}
+
+.spotify-panel__text-container {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.spotify-panel__title {
+    
+}
+
+.spotify-panel__artist {
+    font-size: 0.8em;
+}
+
+.loading {
+    color: rgba(255, 255, 255, 0.4);
+}
