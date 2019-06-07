@@ -47,5 +47,6 @@ export class SpotifyService {
   public refreshNowPlaying() {
     this.getNowPlaying()
     .subscribe();
- }
+  }
+
 }
